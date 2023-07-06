@@ -1,0 +1,85 @@
+#whole {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.card {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 300px;
+}
+
+.image-container {
+  text-align: center;
+  /* margin-top: 100px; */
+  margin-bottom: 30px;
+  display: inline-block;
+  /* margin-right: 20px; */
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-weight: bold;
+  white-space: nowrap;
+  /* margin-top: 5px; */
+  font-size: 30px;
+}
+.image-text {
+  font-size: 15px;
+  /* white-space: nowrap; */
+}
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  /* display: inline-block; */
+  width: 100px;
+  font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group input[type="file"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.form-group.inline {
+  display: flex;
+  align-items: center;
+}
+
+.form-group.inline label {
+  width: auto;
+  margin-right: 10px;
+}
+
+.form-group.inline input[type="text"],
+.form-group.inline input[type="email"],
+.form-group.inline input[type="tel"],
+.form-group.inline input[type="file"] {
+  width: 160px;
+}
+
+.create-account-button {
+  display: block;
+  width: 50%;
+  background-color: #0d6efd;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 25%;
+}

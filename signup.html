@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Sign-Up</title>
+  </head>
+  <body>
+    <div id="whole">
+    <div class="image-container">
+      <img src="/image/RH.png" alt="logo" width="100" height="100" />
+      <p class="logo-text"> <u>Rent A Home</u> </p>
+                <p class="image-text">Smartify Your Living! <br>
+                  Rent your Dream Home or rake in profit <br>
+                  by renting it out- all with just a click.</p>
+    </div>
+    <div class="card">
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name:</label>
+          <input type="text" id="first-name" name="first-name" />
+          <label for="last-name">Last Name:</label>
+          <input type="text" id="last-name" name="last-name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" />
+          <label for="confirm-email">Confirm Email:</label>
+          <input type="email" id="confirm-email" name="confirm-email" />
+        </div>
+        <div class="form-group">
+          <label for="mobile">Mobile:</label>
+          <input type="tel" id="mobile" name="mobile" />
+          <label for="nid">NID:</label>
+          <input type="text" id="nid" name="nid" />
+        </div>
+        <div class="form-group">
+          <label for="photo">Upload a Photo:</label>
+          <input type="file" id="photo" name="photo" class="upload-button" />
+        </div>
+        <button type="submit" class="create-account-button">
+          Create Account
+        </button>
+      </form>
+      </div>
+    </div>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
